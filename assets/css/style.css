@@ -16,3 +16,12 @@
 .floatRight {
     float: right;
 }
+
+.footerFlexbox {
+    display: flex;
+    justify-content: center;
+}
+
+.noTop {
+    padding-top: 0px;
+}
