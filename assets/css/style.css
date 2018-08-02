@@ -4,8 +4,13 @@
     padding-bottom: 0px;
 }
 
-.marginRight {
-    margin-right: 0px;
+.width100 {
+    max-width: 100%;
+}
+
+.rlpadding {
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 .floatRight {
