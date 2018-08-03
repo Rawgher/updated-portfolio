@@ -17,6 +17,13 @@
     float: right;
 }
 
+#portfolioFlexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
 .footerFlexbox {
     display: flex;
     justify-content: center;
