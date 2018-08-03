@@ -66,5 +66,8 @@
 
 .bottomAlign {
     bottom: 0px;
-    position: absolute;
+    position: relative;
 }
+
+/* need to work on this one for each page */
+/* need to make media queries for different screen sizes */
