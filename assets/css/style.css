@@ -71,3 +71,61 @@
 
 /* need to work on this one for each page */
 /* need to make media queries for different screen sizes */
+
+@media screen and (max-width: 980px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+
+@media screen and (max-width: 320px) {
+
+    .fontSize {
+        font-size: 10px;
+    }
+
+    .textAlign {
+        text-align: center;
+    }
+
+    .smallPadding {
+        padding-top: 20px;
+    }
+
+    #myPhotoDiv {
+        width: 100%;
+    }
+
+    #aboutDescDiv{
+        width: 100%;
+        text-align: center;
+    }
+
+    #myPhoto {
+        width: 100%;
+    }
+
+    .centered {
+        text-align: center;
+    }
+
+    .bottomAlign {
+        position: relative;
+        padding-bottom: 5px;
+    }
+
+    .marginPadLogos {
+        margin: 0px;
+        padding: 0px;
+        padding-top: 15px;
+    }
+}
