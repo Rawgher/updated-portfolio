@@ -192,7 +192,7 @@
 @media screen and (max-width: 768px) {
 
     .tbPadding {
-        padding-top: 90px;
+        padding-top: 50px;
     }
 
     .padLeft {
@@ -278,6 +278,7 @@
 
     #myPhoto {
         width: 100%;
+        padding: 2px;
     }
 
     .centered {
@@ -414,6 +415,7 @@
 
     #myPhotoDiv {
         width: 100%;
+        padding: 2px;
     }
 
     #aboutDescDiv{
