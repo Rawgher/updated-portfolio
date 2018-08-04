@@ -81,13 +81,96 @@
 @media screen and (max-width: 980px) {
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 425px) {
+    .padLeft {
+        padding-left: 5px;
+    }
+
+    .smallPadding {
+        padding-top: 20px;
+    }
+
+    #myPhotoDiv {
+        width: 100%;
+    }
+
+    #aboutDescDiv{
+        width: 100%;
+        text-align: center;
+    }
+
+    #myPhoto {
+        width: 100%;
+    }
+
+    .centered {
+        text-align: center;
+    }
+
+    .portfolioWidth {
+        width: 100%;
+    }
+
+    .bottomAlign {
+        position: relative;
+        padding-bottom: 5px;
+    }
+
+    .marginPadLogos {
+        margin: 0px;
+        padding: 0px;
+        padding-top: 15px;
+    }
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 375px) {
+
+    .padLeft {
+        padding-left: 5px;
+    }
+
+    .smallPadding {
+        padding-top: 20px;
+    }
+
+    #myPhotoDiv {
+        width: 100%;
+    }
+
+    #aboutDescDiv{
+        width: 100%;
+        text-align: center;
+    }
+
+    #myPhoto {
+        width: 100%;
+    }
+
+    .centered {
+        text-align: center;
+    }
+
+    .portfolioWidth {
+        width: 100%;
+    }
+
+    .bottomAlign {
+        position: relative;
+        padding-bottom: 5px;
+    }
+
+    .marginPadLogos {
+        margin: 0px;
+        padding: 0px;
+        padding-top: 15px;
+    }
 }
 
 @media screen and (max-width: 320px) {
+
+    .padLeft {
+        padding-left: 5px;
+    }
 
     .fontSize {
         font-size: 10px;
