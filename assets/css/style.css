@@ -14,6 +14,12 @@
     background-color: #a5b7c1;
 }
 
+.cardFont {
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 113px;
+}
+
 .flex {
     display: flex;
 }
