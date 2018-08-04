@@ -118,6 +118,10 @@
         text-align: center;
     }
 
+    .portfolioWidth {
+        width: 100%;
+    }
+
     .bottomAlign {
         position: relative;
         padding-bottom: 5px;
