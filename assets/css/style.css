@@ -66,7 +66,7 @@
 
 .bottomAlign {
     bottom: 0px;
-    position: relative;
+    position: fixed;
 }
 
 /* need to work on this one for each page */
