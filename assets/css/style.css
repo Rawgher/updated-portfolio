@@ -78,7 +78,34 @@
 @media screen and (max-width: 980px) {
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 768px) {
+
+    .padLeft {
+        padding-left: 5px;
+    }
+    
+    .smallPadding {
+        padding-top: 20px;
+    }
+
+    #myPhotoDiv {
+        width: 20%;
+        padding-right: 5px;
+    }
+
+    .descriptionText {
+        font-size: 13px;
+        line-height: 1.25;
+    }
+
+    .portfolioWidth {
+        width: 50%;
+    }
+
+    .bottomAlign {
+        position: relative;
+        padding-bottom: 5px;
+    }
 }
 
 @media screen and (max-width: 425px) {
