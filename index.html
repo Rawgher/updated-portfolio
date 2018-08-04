@@ -1,6 +1,3 @@
-<!-- add a cover page before these show up, and have that be the index.html instead? -->
-
-
 <!DOCTYPE html>
 <html>
 
@@ -20,27 +17,27 @@
 <body>
     <header class="sans-serif">
         <div class="cover bg-left bg-center-l">
-            <div class="bg-black-80 pb5 pb6-m pb7-l noBottom">
+            <div class="pb5 pb6-m pb7-l noBottom backgroundColor">
                 <nav class="dt w-100 mw8 center">
                     <div class="dtc v-mid pa3 white-70 rlPadding fontSize textAlign padLeft">
                         Roger Pender
                     </div>
                     <div class="dtc v-mid tr pa3 rlPadding textAlign">
                         <a class="f6 fw4 hover-white no-underline white-70 dib-ns pv2 ph3 fontSize" href="index.html">About</a>
-                        <a class="f6 fw4 hover-white no-underline white-70 dib-ns pv2 ph3 fontSize" href="portfolio.html">Portfolio</a>
-                        <a class="f6 fw4 hover-white no-underline white-70 dib-l pv2 ph3 fontSize" href="contact.html">Contact</a>
+                        <a class="f6 fw4 hover-white no-underline white-70 dib-ns pv2 ph3 fontSize" href="#background2">Portfolio</a>
+                        <a class="f6 fw4 hover-white no-underline white-70 dib-l pv2 ph3 fontSize" href="#background3">Contact</a>
                     </div>
                 </nav>
     </header>
 
-    <div class="w-100 fl tbPadding smallPadding">
-        <div class="w-100 f2 mw8 pa2 center lessPadding centered">About Me</div>
+    <div class="w-100 fl tbPadding smallPadding vH aboutVh" id="background1">
         <div class="dt w-100 mw8 center">
-            <div class="w-30 fl"  id="myPhotoDiv">
+            <div class="w-40 fl" id="myPhotoDiv">
                 <img src="assets/images/RogerPender.jpg" alt="This is a picture of me" title="This is a picture of Roger Pender" id="myPhoto">
             </div>
             <!-- need to fix spacing as well -->
-            <div class="w-70 fl" id="aboutDescDiv">
+            <div class="w-60 fl" id="aboutDescDiv">
+                <div class="w-100 f2 mw8 pa2 center lessPadding noLeftPad centered sizing about">A bit about me</div>
                 <p class="descriptionText">
                     Hi, I'm Roger. I graduated from UC Davis in 2014 with a Bachelor's Degree in Animal Biology. I'm currently located in Northern
                     California, but I spent the majority of my life down in Los Angeles.
@@ -52,21 +49,111 @@
                     jobs, and had always thought I would keep working with them, until I discovered coding.
                 </p>
                 <br>
-                <!-- change links below maybe? -->
+            </div>
+            <div class="w-100 fl">
                 <p class="descriptionText">
                     I really love building stuff from scratch and am looking forward to seeing all the different ways I can do that. Please check
-                    out my
-                    <a href="portfolio.html">
-                        portfolio</a> if you have some time. I will be updating it with my boot camp projects, and any side
-                    projects I have been working on. Please
-                    <a href="contact.html">
-                        contact</a> me if there are any projects I can help you with.
+                    out my portfolio below if you have some time. I will be updating it with my boot camp projects, and any
+                    side projects I have been working on. Please contact me if there are any projects I can help you with.
                 </p>
             </div>
         </div>
     </div>
 
-    <footer class="w-100 ph3 pv1 bg-black-80 fl lessTop bottomAlign" id="bottomAlignAbout">
+    <div class="w-100 fl tbPadding smallPadding vH portVh" id="background2">
+        <div class="w-100 f2 mw8 pa2 center lessPadding centered sizing fontWeight">A few things I've been working on
+            <br>
+            <small class="smallPrint">Check my
+                <a href="https://github.com/Rawgher" target="_blank" title="GitHub">github</a> for more!</small>
+        </div>
+        <div class="dt w-100 mw8 center" id="portfolioFlexbox">
+            <div class="w-33 fl portfolioWidth">
+                <a href="https://eneaantonicelli.github.io/Project1/index.html" style="text-decoration: none;" target="_blank">
+                    <img src="assets/images/one_code.png" alt="One Stop Code Shop" title="One Stop Code Shop" class="imgHeight">
+                </a>
+                <a href="https://eneaantonicelli.github.io/Project1/index.html" style="text-decoration: none;" target="_blank">
+                    <div class="tc bg-black-70 white-80 portfolioPosition">One Stop Code Shop</div>
+                </a>
+            </div>
+
+            <div class="w-33 fl portfolioWidth">
+                <a href="https://rawgher.github.io/RPG-Game/" style="text-decoration: none;" target="_blank">
+                    <img src="assets/images/overwatch_RPG.png" alt="RPG Game" title="RPG Game" class="imgHeight">
+                </a>
+                <a href="https://rawgher.github.io/RPG-Game/" style="text-decoration: none;" target="_blank">
+                    <div class="tc bg-black-70 white-80 portfolioPosition">RPG Game</div>
+                </a>
+            </div>
+
+            <div class="w-33 fl portfolioWidth">
+                <a href="https://rawgher.github.io/giphy-api/" style="text-decoration: none;" target="_blank">
+                    <img src="assets/images/giphy_API.png" alt="Giphy Generator" title="Giphy Generator" class="imgHeight">
+                </a>
+                <a href="https://rawgher.github.io/giphy-api/" style="text-decoration: none;" target="_blank">
+                    <div class="tc bg-black-70 white-80 portfolioPosition">Giphy Generator</div>
+                </a>
+            </div>
+
+            <div class="w-33 fl portfolioWidth">
+                <a href="https://rawgher.github.io/trivia-game/" style="text-decoration: none;" target="_blank">
+                    <img src="assets/images/trivia.png" alt="Trivia Game" title="Trivia Game" class="imgHeight">
+                </a>
+                <a href="https://rawgher.github.io/trivia-game/" style="text-decoration: none;" target="_blank">
+                    <div class="tc bg-black-70 white-80 portfolioPosition">Trivia Game</div>
+                </a>
+            </div>
+
+            <div class="w-33 fl portfolioWidth">
+                <a href="https://rawgher.github.io/Word-Guess-Game/" target="_blank">
+                    <img src="assets/images/hangman.png" alt="Hangman" title="Hangman" class="imgHeight">
+                </a>
+                <a href="https://rawgher.github.io/Word-Guess-Game/" style="text-decoration: none;" target="_blank">
+                    <div class="tc bg-black-70 white-80 portfolioPosition">Hangman</div>
+                </a>
+            </div>
+        </div>
+        <a href="#" id="back-to-top" title="Back to top" class="show">
+            <img src="assets/images/up-arrow.svg" width="40px">
+        </a>
+        <!-- Thank you to Dave Gandy for the icon used above -->
+    </div>
+
+    <div class="fl w-100 tbPadding smallPadding vH contactVh" id="background3">
+        <div class="w-100 f2 mw8 pa2 center lessPadding centered sizing fontWeight">Contact Me
+            <br>
+            <small class="smallPrint">(functionality coming soon)</small>
+        </div>
+        <div class="dt w-100 mw8 center">
+            <form class="pa2 black-80">
+                <div class="measure width100">
+                    <label for="name" class="f6 b db mb2">Name</label>
+                    <input id="name" class="input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="name-desc">
+                </div>
+            </form>
+
+            <form class="pa2 black-80">
+                <div class="measure width100">
+                    <label for="name" class="f6 b db mb2">Email</label>
+                    <input id="name" class="input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="name-desc">
+                </div>
+            </form>
+
+            <form class="pa2 black-80">
+                <div>
+                    <label for="comment" class="f6 b db mb2">Comments</label>
+                    <textarea id="textboxHeight" name="comment" class="db border-box hover-black w-100 ba b--black-20 br2 mb2" aria-describedby="comment-desc"></textarea>
+                </div>
+            </form>
+
+            <a class="f6 link dim br3 ph3 pv2 mb2 dib white bg-black floatRight" href="#0">Submit</a>
+        </div>
+        <a href="#" id="back-to-top" title="Back to top" class="show">
+            <img src="assets/images/chevron-up.svg" width="40px">
+        </a>
+        <!-- Thank you to Dave Gandy for the icon used above -->
+    </div>
+
+    <footer class="w-100 ph3 pv1 fl lessTop bottomAlign backgroundColor" id="bottomAlignAbout">
         <small class="f6 db tc white-70">Click the links below to visit my pages!</small>
         <div class="w-100 ph3 footerFlexbox">
             <a class="link white-70 bg-transparent hover-white inline-flex items-center ma2 tc br2 pa2 fl marginPadLogos" href="https://github.com/Rawgher"
@@ -106,6 +193,8 @@
             </a>
         </div>
     </footer>
+
+    <script src="assets/javascript/app.js"></script>
 </body>
 
 </html>

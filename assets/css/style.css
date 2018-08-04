@@ -1,3 +1,40 @@
+.backgroundColor {
+    background-color: #514644;
+}
+
+#background1 {
+    background-color:#dbdbe5;
+}
+
+#background2 {
+    background-color: #535d55;
+}
+
+#background3 {
+    background-color: #a5b7c1;
+}
+
+.aboutVh {
+    height: 90vh;
+}
+
+.portVh {
+    height: 96vh;
+}
+
+.contactVh {
+    height: 76vh;
+}
+
+.about {
+    font-size: 46px;
+    font-weight: bolder;
+}
+
+.fontWeight {
+    font-weight: bolder;
+}
+
 .noBottom {
     padding-bottom: 0px;
 }
@@ -6,13 +43,21 @@
     max-width: 100%;
 }
 
+.noLeftPad {
+    padding-left: 0px;
+}
+
 .rlPadding {
     padding-right: 0px;
     padding-left: 0px;
 }
 
+#myPhoto {
+    width: 85%;
+}
+
 .tbPadding {
-    padding-top: 40px;
+    padding-top: 90px;
     padding-bottom: 25px;
 }
 
@@ -30,6 +75,10 @@
     justify-content: space-around;
 }
 
+.smallPrint {
+    font-size: 30%; 
+}
+
 .portfolioPosition {
         position: relative;
         text-align: center;
@@ -43,7 +92,7 @@
 }
 
 .descriptionText {
-    font-size: 18px;
+    font-size: 24px;
     line-height: 1.5;
 }
 
@@ -66,47 +115,123 @@
 
 .bottomAlign {
     bottom: 0px;
-    position: fixed;
+    position: relative;
+}
+
+.show {
+    float: right;
 }
 
 
 @media screen and (max-width: 1440px) {
     
-    .smallPadding {
-        padding-top: 20px;
+    .tbPadding {
+        padding-top: 90px;
+    }
+
+    .descriptionText {
+        font-size: 24px;
+    }
+
+    .smallPrint {
+        font-size: 50%;
+        font-weight: normal;
+    }
+
+    #myPhoto {
+        width: 90%;
     }
 
     .bottomAlign {
-        position: fixed;
+        position: relative;
         padding-bottom: 5px;
+    }
+
+    .sizing {
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .aboutVh {
+        height: 85vh;
+    }
+    
+    .portVh {
+        height: 64vh;
+    }
+    
+    .contactVh {
+        height: 50vh;
     }
 }
 
 @media screen and (max-width: 1024px) {
 
+    .tbPadding {
+        padding-top: 90px;
+    }
+
     .padLeft {
         padding-left: 5px;
     }
 
-    .smallPadding {
-        padding-top: 20px;
+    .descriptionText {
+        font-size: 26px;
+    }
+
+    #myPhoto {
+        width: 90%;
+    }
+
+    .smallPrint {
+        font-size: 50%;
+        font-weight: normal;
+    }
+
+    .sizing {
+        font-weight: bolder;
+        text-align: center;
     }
 
     .bottomAlign {
-        position: fixed;
+        position: relative;
         padding-bottom: 5px;
     }
 
+    .aboutVh {
+        height: 60vh;
+    }
+    
+    .portVh {
+        height: 61vh;
+    }
+    
+    .contactVh {
+        height: 48vh;
+    }
 }
 
 @media screen and (max-width: 768px) {
 
+    .tbPadding {
+        padding-top: 90px;
+    }
+
     .padLeft {
         padding-left: 5px;
     }
-    
-    .smallPadding {
-        padding-top: 20px;
+
+    .lessPadding {
+        padding-bottom: 5px;
+    }
+
+    #myPhoto {
+        width: 100%;
+    }
+
+    .sizing {
+        font-weight: bolder;
+        text-align: center;
     }
 
     #myPhotoDiv {
@@ -114,8 +239,13 @@
         padding-right: 5px;
     }
 
+    .smallPrint {
+        font-size: 50%;
+        font-weight: normal;
+    }
+
     .descriptionText {
-        font-size: 18px;
+        font-size: 17px;
         line-height: 1.5;
     }
 
@@ -128,20 +258,36 @@
         padding-bottom: 5px;
     }
 
-    #bottomAlignContact {
-        bottom: 0px;
-        position: fixed;
+    .aboutVh {
+        height: 65vh;
     }
-
-    #bottomAlignAbout {
-        bottom: 0px;
-        position: fixed;
+    
+    .portVh {
+        height: 107vh;
+    }
+    
+    .contactVh {
+        height: 61vh;
     }
 }
 
 @media screen and (max-width: 425px) {
     .padLeft {
         padding-left: 5px;
+    }
+
+    .lessPadding {
+        padding-bottom: 5px;
+    }
+
+    .sizing {
+        font-size: 16px;
+        font-weight: bolder;
+    }
+
+    .smallPrint {
+        font-size: 70%;
+        font-weight: normal;
     }
 
     .smallPadding {
@@ -154,6 +300,12 @@
 
     #aboutDescDiv{
         width: 100%;
+        text-align: center;
+    }
+
+    .descriptionText {
+        font-size: 14px;
+        line-height: 1.25;
         text-align: center;
     }
 
@@ -189,12 +341,74 @@
         bottom: 0px;
         position: relative;
     }
+
+    .aboutVh {
+        height: 115vh;
+    }
+    
+    .portVh {
+        height: 203vh;
+    }
+    
+    .contactVh {
+        height: 64vh;
+    }
+}
+
+@media screen and (max-width: 414px) {
+
+    .aboutVh {
+        height: 120vh;
+    }
+    
+    .portVh {
+        height: 214vh;
+    }
+    
+    .contactVh {
+        height: 70vh;
+    }
+
+}
+
+/* add pixel 2? */
+
+@media screen and (max-width: 411px) {
+
+    .aboutVh {
+        height: 106vh;
+    }
+    
+    .portVh {
+        height: 191vh;
+    }
+    
+    .contactVh {
+        height: 62vh;
+    }
+
 }
 
 @media screen and (max-width: 375px) {
 
+    /* , screen and (max-height: 812px)  */
+
     .padLeft {
         padding-left: 5px;
+    }
+
+    .lessPadding {
+        padding-bottom: 5px;
+    }
+
+    .sizing {
+        font-size: 16px;
+        font-weight: bolder;
+    }
+
+    .smallPrint {
+        font-size: 70%;
+        font-weight: normal;
     }
 
     .smallPadding {
@@ -207,6 +421,12 @@
 
     #aboutDescDiv{
         width: 100%;
+        text-align: center;
+    }
+
+    .descriptionText {
+        font-size: 14px;
+        line-height: 1.25;
         text-align: center;
     }
 
@@ -236,6 +456,48 @@
     #bottomAlignAbout {
         bottom: 0px;
         position: relative;
+    }
+
+    .aboutVh {
+        height: 102vh;
+    }
+    
+    .portVh {
+        height: 193vh;
+    }
+    
+    .contactVh {
+        height: 63vh;
+    }
+}
+
+/* @media screen and (max-width: 375px), screen and (max-height: 667px) {
+
+    .aboutVh {
+        height: 102vh;
+    }
+    
+    .portVh {
+        height: 193vh;
+    }
+    
+    .contactVh {
+        height: 63vh;
+    }
+
+} */
+
+@media screen and (max-width: 360px) {
+    .aboutVh {
+        height: 130vh;
+    }
+    
+    .portVh {
+        height: 246vh;
+    }
+    
+    .contactVh {
+        height: 80vh;
     }
 }
 
@@ -249,12 +511,30 @@
         font-size: 10px;
     }
 
+    .sizing {
+        font-size: 16px;
+        font-weight: bolder;
+    }
+
+    .smallPrint {
+        font-size: 70%;
+        font-weight: normal;
+    }
+
     .textAlign {
         text-align: center;
     }
 
+    .lessPadding {
+        padding-bottom: 5px;
+    }
+
     .smallPadding {
         padding-top: 20px;
+    }
+
+    .aboutVh {
+        height: 144vh;
     }
 
     #myPhotoDiv {
@@ -276,6 +556,20 @@
 
     .portfolioWidth {
         width: 100%;
+    }
+
+    .portVh {
+        height: 276vh;
+    }
+
+    .descriptionText {
+        font-size: 14px;
+        line-height: 1.25;
+        text-align: center;
+    }
+
+    .contactVh {
+        height: 90vh;
     }
 
     .bottomAlign {
