@@ -1,17 +1,21 @@
 .backgroundColor {
-    background-color: #514644;
+    background-color: #DDDDDB;
 }
 
 #background1 {
-    background-color:#dbdbe5;
+    background-color: #FEFFFA;
 }
 
 #background2 {
-    background-color: #535d55;
+    background-color: #FAFEFF;
 }
 
 #background3 {
-    background-color: #a5b7c1;
+    background-color: #F4F5F2
+}
+
+.textDecoration {
+    text-decoration: none;
 }
 
 .cardFont {
