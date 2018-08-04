@@ -14,18 +14,6 @@
     background-color: #a5b7c1;
 }
 
-.aboutVh {
-    height: 90vh;
-}
-
-.portVh {
-    height: 96vh;
-}
-
-.contactVh {
-    height: 76vh;
-}
-
 .about {
     font-size: 46px;
     font-weight: bolder;
@@ -152,17 +140,6 @@
         text-align: center;
     }
 
-    .aboutVh {
-        height: 85vh;
-    }
-    
-    .portVh {
-        height: 64vh;
-    }
-    
-    .contactVh {
-        height: 50vh;
-    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -198,17 +175,6 @@
         padding-bottom: 5px;
     }
 
-    .aboutVh {
-        height: 60vh;
-    }
-    
-    .portVh {
-        height: 61vh;
-    }
-    
-    .contactVh {
-        height: 48vh;
-    }
 }
 
 @media screen and (max-width: 768px) {
@@ -258,17 +224,6 @@
         padding-bottom: 5px;
     }
 
-    .aboutVh {
-        height: 65vh;
-    }
-    
-    .portVh {
-        height: 107vh;
-    }
-    
-    .contactVh {
-        height: 61vh;
-    }
 }
 
 @media screen and (max-width: 425px) {
@@ -342,56 +297,9 @@
         position: relative;
     }
 
-    .aboutVh {
-        height: 115vh;
-    }
-    
-    .portVh {
-        height: 203vh;
-    }
-    
-    .contactVh {
-        height: 64vh;
-    }
-}
-
-@media screen and (max-width: 414px) {
-
-    .aboutVh {
-        height: 120vh;
-    }
-    
-    .portVh {
-        height: 214vh;
-    }
-    
-    .contactVh {
-        height: 70vh;
-    }
-
-}
-
-/* add pixel 2? */
-
-@media screen and (max-width: 411px) {
-
-    .aboutVh {
-        height: 106vh;
-    }
-    
-    .portVh {
-        height: 191vh;
-    }
-    
-    .contactVh {
-        height: 62vh;
-    }
-
 }
 
 @media screen and (max-width: 375px) {
-
-    /* , screen and (max-height: 812px)  */
 
     .padLeft {
         padding-left: 5px;
@@ -458,47 +366,6 @@
         position: relative;
     }
 
-    .aboutVh {
-        height: 102vh;
-    }
-    
-    .portVh {
-        height: 193vh;
-    }
-    
-    .contactVh {
-        height: 63vh;
-    }
-}
-
-/* @media screen and (max-width: 375px), screen and (max-height: 667px) {
-
-    .aboutVh {
-        height: 102vh;
-    }
-    
-    .portVh {
-        height: 193vh;
-    }
-    
-    .contactVh {
-        height: 63vh;
-    }
-
-} */
-
-@media screen and (max-width: 360px) {
-    .aboutVh {
-        height: 130vh;
-    }
-    
-    .portVh {
-        height: 246vh;
-    }
-    
-    .contactVh {
-        height: 80vh;
-    }
 }
 
 @media screen and (max-width: 320px) {
@@ -533,10 +400,6 @@
         padding-top: 20px;
     }
 
-    .aboutVh {
-        height: 144vh;
-    }
-
     #myPhotoDiv {
         width: 100%;
     }
@@ -558,18 +421,10 @@
         width: 100%;
     }
 
-    .portVh {
-        height: 276vh;
-    }
-
     .descriptionText {
         font-size: 14px;
         line-height: 1.25;
         text-align: center;
-    }
-
-    .contactVh {
-        height: 90vh;
     }
 
     .bottomAlign {
